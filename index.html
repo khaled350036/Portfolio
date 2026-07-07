@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khaled Yasser — Full-Stack Web Developer</title>
+<meta name="description" content="Khaled Yasser Abdel Maaboud Saad — Full-Stack Web Developer. HTML, CSS, JavaScript, PHP, Laravel, MySQL, UI/UX.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav">
+  <a href="#hero" class="nav-mark">KY<span class="nav-mark-dot">.</span></a>
+  <nav class="nav-paths" aria-label="Primary">
+    <a href="#about">~/about</a>
+    <a href="#skills">~/skills</a>
+    <a href="#projects">~/projects</a>
+    <a href="#contact">~/contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<nav class="nav-mobile" id="navMobile" aria-label="Mobile">
+  <a href="#about">~/about</a>
+  <a href="#skills">~/skills</a>
+  <a href="#projects">~/projects</a>
+  <a href="#contact">~/contact</a>
+</nav>
+
+<main>
+
+  <section id="hero" class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">~/khaled-yasser · Kafrelsheikh, Egypt</p>
+      <h1 class="hero-title">
+        Khaled Yasser
+        <span class="hero-title-role">Full&#8209;Stack Web Developer</span>
+      </h1>
+      <p class="hero-lead">
+        I build complete web products from the database up — clean interfaces on the surface,
+        solid PHP &amp; Laravel logic underneath, and MySQL holding it all together.
+        Currently studying Artificial Intelligence at the Faculty of Engineering, Kafrelsheikh University.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-tags">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>Laravel</span><span>MySQL</span><span>UI/UX</span>
+      </div>
+    </div>
+
+    <div class="stack-visual" aria-hidden="true">
+      <div class="stack-layer" data-tech="html" style="--i:5;"><span>HTML</span></div>
+      <div class="stack-layer" data-tech="css" style="--i:4;"><span>CSS</span></div>
+      <div class="stack-layer" data-tech="js" style="--i:3;"><span>JavaScript</span></div>
+      <div class="stack-layer" data-tech="php" style="--i:2;"><span>PHP</span></div>
+      <div class="stack-layer" data-tech="laravel" style="--i:1;"><span>Laravel</span></div>
+      <div class="stack-layer" data-tech="mysql" style="--i:0;"><span>MySQL</span></div>
+      <p class="stack-caption">the stack, bottom&#8209;up</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-photo">
+      <div class="about-photo-frame">
+        <img src="assets/khaled-photo.jpg" alt="Khaled Yasser">
+      </div>
+    </div>
+    <div class="about-content">
+      <p class="section-eyebrow">01 — who I am</p>
+      <h2>About</h2>
+      <p>
+        I'm Khaled Yasser, a full-stack web developer and Artificial Intelligence student at the
+        Faculty of Engineering, Kafrelsheikh University (Class of 2029). I like building things end
+        to end — designing the interface in Figma, wiring it up with HTML, CSS and JavaScript, then
+        giving it a real backend with PHP, Laravel and MySQL so it actually does something.
+      </p>
+      <p>
+        I care about interfaces that feel considered — good spacing, clear hierarchy, and small details
+        that make a page feel finished rather than assembled. Studying AI alongside web development also
+        means I'm always looking at how these tools can fit into the way I build, not just what I build.
+      </p>
+      <ul class="facts">
+        <li><span class="facts-label">Education</span>Artificial Intelligence, Faculty of Engineering — Kafrelsheikh University (expected 2029)</li>
+        <li><span class="facts-label">Focus</span>Full-Stack Development · UI/UX Design</li>
+        <li><span class="facts-label">Based in</span>Kafr El Sheikh, Egypt</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <p class="section-eyebrow">02 — what I work with</p>
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skills-group">
+        <h3>Frontend</h3>
+        <div class="chips">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive Design</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h3>Backend</h3>
+        <div class="chips">
+          <span>PHP</span><span>Laravel</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h3>Database</h3>
+        <div class="chips">
+          <span>MySQL</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h3>Design</h3>
+        <div class="chips">
+          <span>UI/UX Design</span><span>Figma</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <p class="section-eyebrow">03 — selected work</p>
+    <h2>Projects</h2>
+
+    <article class="project-card">
+      <div class="project-media">
+        <div class="browser-frame">
+          <div class="browser-dots"><span></span><span></span><span></span></div>
+          <div class="browser-preview">
+            <img src="assets/travel-preview.jpg" alt="Book Flights travel booking site — hero section with a mountain landscape and a Book Now button">
+          </div>
+        </div>
+      </div>
+      <div class="project-info">
+        <p class="project-kicker">Front-End · Travel &amp; Tourism</p>
+        <h3>Book Flights</h3>
+        <p>
+          A front-end travel &amp; tourism web app built for browsing trips and promotional offers.
+          Destinations are organized into clear categories (cities &amp; countries, nature, mountains,
+          river trips), backed by a multi-condition filter bar for budget, country, trip length and
+          purpose. Discounted prices are highlighted with a struck-through old price, and a
+          testimonials section with star ratings adds social proof. The whole interface leans on a
+          large hero image up top and a glassmorphic login card for a modern, polished feel.
+        </p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="https://khaled350036.github.io/Book-flights/" target="_blank" rel="noopener">Live Demo →</a>
+          <a href="https://github.com/khaled350036/Book-flights" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card reverse">
+      <div class="project-media">
+        <div class="browser-frame">
+          <div class="browser-dots"><span></span><span></span><span></span></div>
+          <div class="browser-preview">
+            <img src="assets/nike-preview.jpg" alt="Nike concept redesign — About Nike section on a dark background with orange accents" style="object-fit: unset;">
+          </div>
+        </div>
+      </div>
+      <div class="project-info">
+        <p class="project-kicker">Front-End · E-commerce Concept</p>
+        <h3>Nike — Concept Redesign</h3>
+        <p>
+          A fan-made concept redesign of the Nike storefront, rebuilt from scratch with a custom CSS
+          design system — its own color and spacing tokens, paired Google Fonts, and hand-built
+          animated elements for product reveals and hover states. The build involved solving real
+          layout puzzles along the way, including tricky CSS sibling-selector behavior, to get product
+          cards and navigation interactions working the way they were designed to.
+        </p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="https://khaled350036.github.io/Nike-website/" target="_blank" rel="noopener">Live Demo →</a>
+          <a href="https://github.com/khaled350036/Nike-website" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section id="contact" class="contact">
+    <p class="section-eyebrow">04 — get in touch</p>
+    <h2>Let's build something.</h2>
+    <p class="contact-lead">Open to internships, freelance work and collaborations. Reach out any time.</p>
+
+    <div class="contact-grid">
+      <button class="contact-item" id="copyEmail" data-value="khaled20062910@gmail.com" type="button">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">khaled20062910@gmail.com</span>
+        <span class="contact-hint">Click to copy</span>
+      </button>
+
+      <a class="contact-item" href="tel:+201065817132">
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">+20 106 581 7132</span>
+        <span class="contact-hint">Tap to call</span>
+      </a>
+
+      <a class="contact-item" href="https://github.com/khaled350036" target="_blank" rel="noopener">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">@khaled350036</span>
+        <span class="contact-hint">View profile</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Khaled Yasser Abdel Maaboud Saad · <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
